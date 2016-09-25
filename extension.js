@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Farofa's Bot",
+        botName: "BotCyber",
         language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -100,9 +100,9 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: "https://facebook.com/farofadasdivaspop",
+        fbLink: null,
         youtubeLink: null,
-        website: "http://farofa-pop.blogspot.com.br",
+        website: null,
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
